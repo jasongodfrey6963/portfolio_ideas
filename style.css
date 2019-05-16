@@ -1,0 +1,100 @@
+body {
+  position: relative;
+
+  width: auto;
+}
+
+#navbar {
+  background-color: #000515;
+  position: fixed;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border: none !important;
+}
+
+#canvas-wrapper {
+  height: 100vh;
+  width: auto;
+}
+
+#home {
+  background-color: #252c3f;
+  width: auto;
+}
+
+#brand {
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  font-family: "Satisfy", cursive;
+}
+
+#projects {
+  height: 95vh;
+  background: #252c3f;
+}
+
+#projects-title {
+  justify-content: center;
+  background: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+#content-wrapper {
+  justify-content: space-evenly;
+  padding-top: 4rem;
+  align-content: center;
+  background-color: #252c3f;
+}
+
+a,
+a#experience {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #999 !important;
+}
+
+.nav-pills > li > a.active:hover {
+  background-color: #6d909c !important;
+  color: white !important;
+}
+
+.nav-pills > li > a.active {
+  background-color: #6d909c !important;
+}
+
+.nav-item {
+  font-size: 20px;
+}
+
+.nav-pills > li > a {
+  padding-top: 12px;
+  padding-bottom: 15px;
+  border-radius: 0px !important;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.card-btn {
+  justify-content: space-evenly;
+}
+
+.card-body {
+  background-color: #6d909c;
+  color: white;
+}
+
+.card {
+  border-color: #6d909c;
+}
+
+.btn {
+  background-color: #252c3f;
+}
